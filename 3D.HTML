@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte en Tonos Azules</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f7fd; /* Color de fondo azul claro */
+            margin: 0;
+            padding: 0;
+            color: #333; /* Color de texto oscuro */
+        }
+        header {
+            background-color: #8ab6d6; /* Azul claro para el encabezado */
+            color: #fff; /* Texto blanco para el encabezado */
+            padding: 15px;
+            text-align: center;
+align-items :center;
+display: flex;
+        }
+
+  .subheader {
+            background-color: #D5DBFD  ; /* azul medio para el subencabezado contacto y gmail */
+            color: #021066; /* Texto blanco para el subencabezado con iconos*/
+            padding: 10px 10px;
+            text-align: center;
+font-size: 15px;
+        }
+        nav {
+            background-color: #b0d4f1; /* Azul más claro para la barra de navegación */
+            color: #333; /* Texto oscuro para la barra de navegación */
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+        }
+        nav a {
+            color: #333; /* Texto oscuro para los enlaces de la barra de navegación */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #b0d4f1;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: transform 0.3s; /* Animación de movimiento */
+}
+
+nav ul li:hover {
+    background-color: #b0d4f1;/* Cambio de color al pasar el cursor */
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #b0d4f1; /* Color azul del menu */
+    min-width: 150px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+transition: transform 0.3s; /* Animación de movimiento */
+}
+
+nav ul li ul li:hover {
+    background-color: #B0C4DE; /* Cambio de color al pasar el cursor */
+color: #f00; /* Color al pasar el puntero */
+}
+nav ul li a:hover,
+nav ul li ul li a:hover {
+    transform: translateY(-5px); /* Movimiento hacia arriba al pasar el cursor */
+}
+nav ul li a:hover {
+  color: #00008B; /* Color al pasar el puntero */
+}
+
+        section {
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff; /* Fondo blanco para las secciones */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+           height: 350px; /*largo del sitio*/
+
+        }
+form {
+            text-align: right;
+            margin-bottom: 5px ;
+padding-bottom: 10px;
+padding-top: 6px;
+        }
+ input[type="text"] {
+           width: 300px;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+        background-color: white; /* Fondo blanco de barra de busqueda */
+        color: #007bff; /* Texto barra de busqueda*/
+}
+        input[type="submit"] {
+            padding: 10px 20px;
+        border: none;
+        background-color: #6495ED ; /* Botón buscar */
+        color: white;
+        border-radius: 6px;
+        cursor: pointer;
+margin-bottom: 3px;
+font-size: 16px;
+        }
+p{
+font-size: 20px;
+ font-family: Arial;
+margin: 15px;
+}
+/* Estilos para el logo */
+.logo img {
+    max-width: 300px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+    </style>
+</head>
+<body>
+
+
+
+<div class="subheader">
+
+
+<div style=float:right;
+<div style=text-align: center;
+<div class="content-envelope-cart">
+<span class="text">Gmail</span>
+<a href="mailto:jennifermaricelagalo@gmail.com">
+<i class="fa-solid fa-envelope fa-shake fa-2xl" style="color: #021066;"></i></a>
+<span class="text">jennifergalo@gmail.com</span>
+</div>
+
+<div style=float:center;
+display: flex;
+flex-direcction: column;
+<div style=text-align: center;
+<div class="container-user">
+<a href="https://wa.me/99591339">
+<i src="fa-solid fa-user" alt="contacto" class="container-user">
+<i class="fa-solid fa-user fa-beat-fade fa-xl"></i></a>
+<span class="text">Contacto</span>
+<span class="number">9959-1339</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<header>
+ <div class="logo">
+            <img src="https://i.pinimg.com/736x/11/c1/d4/11c1d422ecf5201f3b9e971b6ac732a6.jpg" alt="Logo de la empresa">
+        </div>
+
+    <h1>Promoviendo una vida con Arte</h1>
+   
+</header>
+
+<nav>
+   <ul>
+            <li><a href="3D.HTML">Sobre Nosotros</a>
+                <ul>
+                    <li><a href="quienes.HTML">Quiénes somos</a></li>
+                  
+                </ul>
+            </li>
+    <li><a href="map.HTML">Envios</a>
+               
+            </li>
+<li><a href="ofertas.HTML">Ofertas</a></li>
+      <li><a href="marcas.HTML">Marcas</a></li>
+            <li><a href="registro.HTML">Registro</a>
+          </li>
+<form action="#" method="GET">
+
+<input type="text" name="q" placeholder="Buscar arte...">
+            <input type="submit" value="Buscar">
+</form>
+
+   
+</nav>
+
+
+
+
+
+    <h2>¡Bienvenido a nuestro a mi sitio web!</h2>
+    <p>¡Bienvenidos a nuestro paraíso del arte! En ProArte, nos enorgullece ofrecerte una amplia gama de materiales de arte de la más alta calidad para satisfacer todas tus necesidades creativas.
+
+Desde lienzos hasta pinceles, pasando por óleos y acuarelas, tenemos todo lo que necesitas para dar vida a tus ideas más inspiradoras. Ya seas un artista profesional en busca de herramientas de primera calidad o un aficionado entusiasta deseoso de explorar tu creatividad, ¡has llegado al lugar adecuado!
+<br>
+<br>
+Nuestro compromiso es proporcionarte no solo los mejores productos, sino también la mejor experiencia de compra. Con opciones de envío rápido y seguro, así como un equipo de atención al cliente siempre dispuesto a ayudarte, puedes confiar en nosotros para satisfacer todas tus necesidades artísticas.
+<br>
+<br>
+No esperes más para dar rienda suelta a tu creatividad. Explora nuestra colección de materiales de arte hoy mismo y haz de cada obra de arte un verdadero tesoro.</p>
+
+<style>
+.contenedor {
+  display: flex;
+height: 450px;
+margin: 10px;
+}
+
+.producto {
+  flex: 1;
+  margin: 10px;
+  background-color: #3498db; /* Azul */
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.producto img {
+  width: 100%;
+  max-width: 200px; /* Ajustar según el tamaño de la imagen */
+  height: 300px;
+}
+
+.producto h2 {
+  margin-top: 10px;
+  color: white; /* Color del texto */
+}
+
+.producto button {
+  margin-top: 5px;
+  padding: 5px 5px;
+  background-color:  #D5DBFD; /* Color más oscuro de azul */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.producto p {
+  margin-top: 5px;
+  color: white; /* Color del texto */
+}
+</style>
+
+<body>
+  <section class="contenedor">
+    <section class="producto">
+      <img src="https://2.bp.blogspot.com/-HcsDeIW-35M/Vi492J9Ax4I/AAAAAAAAAIM/BEUpafH3DTc/s1600/oleo.jpg" alt="Producto 1">
+      <h2>50 Colores al Oleo</h2>
+      <button  onclick="irAOtraPagina()">Comprar</button>
+<script>
+        function irAOtraPagina() {
+            // Redirige al usuario a otra página
+            window.location.href = "PRO1.HTML";
+        }
+    </script>
+      <p>L4701.34</p>
+    </section>
+    <!-- Repetir para los otros productos -->
+<section class="producto">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/91EpJw9lY8L._AC_SL1500_.jpg" alt="Producto 1">
+      <h2>29 Piezas de pintura acrilica</h2>
+      <button onclick="irAOtraPagina()">Comprar</button>
+<script>
+        function irAOtraPagina() {
+            // Redirige al usuario a otra página
+            window.location.href = "PRO2.HTML";
+        }
+    </script>
+      <p>L281.96</p>
+    </section>
+<section class="producto">
+      <img src="https://www.xavikingart.org.es/wp-content/uploads/2020/12/71fvU145JfL._AC_SL1000_.jpg" alt="Producto 1">
+      <h2>Gran lote de 180 tubos Ban Gogh</h2>
+      <button>Comprar</button>
+      <p>L8,239.72</p>
+    </section>
+<section class="producto">
+      <img src="https://solograffic.co/wp-content/uploads/2021/02/Pintura-Acrilica-Pebeo-Tubo-setx12-2.jpg" alt="Producto 1">
+      <h2>Juego de 6 pinturas metalico</h2>
+      <button>Comprar</button>
+      <p>L124.44</p>
+    </section>
+<section class="producto">
+      <img src="https://cdnx.jumpseller.com/la-cali/image/24423092/resize/1200/1200?1653585939" alt="Producto 1">
+      <h2>Pintura para tela 30Ml</h2>
+      <button>Comprar</button>
+      <p>L 160.59</p>
+    </section>
+  </section>
+
+
+
+
+<section class="contenedor">
+    <section class="producto">
+      <img src="https://http2.mlstatic.com/D_NQ_NP_2X_671516-MLM44094461860_112020-F.jpg" alt="Producto 1">
+      <h2>Caballete de madera</h2>
+      <button>Comprar</button>
+      <p>L1100</p>
+    </section>
+    <!-- Repetir para los otros productos -->
+<section class="producto">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/61JFCuWSsJL._AC_SL1500_.jpg" alt="Producto 1">
+      <h2>TCaballete de pintura de estudio</h2>
+      <button>Comprar</button>
+      <p>L1000</p>
+    </section>
+<section class="producto">
+      <img src="https://cdn.manomano.com/caballetes-ajustables-en-altura-2-piezas-caballetes-para-obra-metalicos-caballete-de-taller-de-acero-plegable-borriqueta-regulable-con-anclaje-de-seguridad-L-3956905-7948988_1.jpg" alt="Producto 1">
+      <h2>Caballete ajustable 1</h2>
+      <button>Comprar</button>
+      <p>L1220</p>
+    </section>
+<section class="producto">
+      <img src="C:\Users\Latitude\Pictures\Saved Pictures\per16.jpg" alt="Producto 1">
+      <h2>Título del Producto 1</h2>
+      <button>Comprar</button>
+      <p>$20</p>
+    </section>
+<section class="producto">
+      <img src="C:\Users\Latitude\Pictures\Saved Pictures\per15.jpg" alt="Producto 1">
+      <h2>Título del Producto 1</h2>
+      <button>Comprar</button>
+      <p>L200</p>
+    </section>
+  </section>
+</body>
+
+
+
+<h2>Encontraras todo lo que nesesites</h2>
+    <p>Explora nuestra colección de obras de arte creadas en una amplia gama de herramientas. Sumérgete en la belleza y el significado detrás de cada pieza.</p>
+
+
+<style>
+.contenedor {
+  display: flex;
+height: 400px;
+margin: 10px;
+}
+
+.producto {
+  flex: 1;
+  margin: 10px;
+  background-color: #3498db; /* Azul */
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.producto img {
+  width: 100%;
+  max-width: 200px; /* Ajustar según el tamaño de la imagen */
+  height: 200px;
+}
+
+.producto h2 {
+  margin-top: 10px;
+  color: white; /* Color del texto */
+}
+
+.producto button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #2980b9; /* Color más oscuro de azul */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.producto p {
+  margin-top: 10px;
+  color: white; /* Color del texto */
+}
+</style>
+
+<body>
+  <section class="contenedor">
+    <section class="producto">
+      <img src="http://ecx.images-amazon.com/images/I/610w3EKCiEL._SL1000_.jpg" alt="Producto 1">
+      <h2>Estuche de pintura con caballete</h2>
+      <button>Comprar</button>
+      <p>L1200</p>
+    </section>
+    <!-- Repetir para los otros productos -->
+<section class="producto">
+      <img src="https://http2.mlstatic.com/kit-caballete-para-pintura-artistica-arte-dibujo-accesorio-D_NQ_NP_9315-MLM20015804297_122013-F.jpg" alt="Producto 1">
+      <h2>Kit mas caballe y pintura</h2>
+      <button>Comprar</button>
+      <p>L1500</p>
+    </section>
+<section class="producto">
+      <img src="https://casafuji.mx/wp-content/uploads/2022/11/EMPOMBRI_Medio_Brillante-1024x1024.jpg" alt="Producto 1">
+      <h2>Medio solvente para pintura</h2>
+      <button>Comprar</button>
+      <p>L130</p>
+    </section>
+<section class="producto">
+      <img src="https://www.gotticlub.ec/wp-content/uploads/gotticlub-medio-para-pintura-fluida-pouring.jpg" alt="Producto 1">
+      <h2>Medio para pintura fluida</h2>
+      <button>Comprar</button>
+      <p>L100</p>
+    </section>
+<section class="producto">
+      <img src="https://http2.mlstatic.com/D_NQ_NP_2X_879116-MCO43951508174_102020-F.jpg" alt="Producto 1">
+      <h2>Marcadores crayola ultra 40 colores</h2>
+      <button>Comprar</button>
+      <p>L150</p>
+    </section>
+  </section>
+
+
+
+
+<section class="contenedor">
+    <section class="producto">
+      <img src="https://cdnx.jumpseller.com/ace-comaderas/image/10387942/resize/1200/1200?1639489194" alt="Producto 1">
+      <h2>Rodillo</h2>
+      <button>Comprar</button>
+      <p>L120</p>
+    </section>
+    <!-- Repetir para los otros productos -->
+<section class="producto">
+      <img src="https://www.bricotex.pro/tienda/5759-thickbox_default/brocha-de-pintor-paletina-triple-extra.jpg" alt="Producto 1">
+      <h2>Brocha mediana</h2>
+      <button>Comprar</button>
+      <p>L95</p>
+    </section>
+<section class="producto">
+      <img src="https://ferreteriamoderna.com/wp-content/uploads/2019/11/4066-2048x2048.jpg" alt="Producto 1">
+      <h2>Brocha azul grande</h2>
+      <button>Comprar</button>
+      <p>L85</p>
+    </section>
+<section class="producto">
+      <img src="http://www.cano-sa.com/wp-content/uploads/2014/03/02-paletina-triple-max-azul1.jpg" alt="Producto 1">
+      <h2>Brocha azul mediana</h>
+      <button>Comprar</button>
+      <p>L65</p>
+    </section>
+<section class="producto">
+      <img src="https://static.grainger.com/rp/s/is/image/Grainger/38UX66_AS02?hei=800&wid=929" alt="Producto 1">
+      <h2>Brocha ovalada</h2>
+      <button>Comprar</button>
+      <p>L88</p>
+    </section>
+  </section>
+</body>
+<center>
+ <img src="https://cdn.forbes.com.mx/2022/05/Arte-Consigna.jpg" alt="Imagen" width="1300" height="500">
+</center>
+
+
+
+<h2>Porque nesesito estas herramientas?</h2>
+   <p>Las herramientas de arte son importantes por varias razones:
+<br>
+<br>
+Expresión Creativa: 
+<br>
+Las herramientas de arte permiten a las personas expresar sus pensamientos, emociones y experiencias de formas únicas. Desde la pintura hasta la escultura y más allá, estas herramientas ofrecen un medio para expresarse de manera visual y creativa.
+<br>
+<br>
+Desarrollo Personal: 
+<br>
+El arte es una forma poderosa de autoexpresión y exploración personal. Utilizar herramientas de arte puede ayudar a las personas a desarrollar su identidad, a comprender sus emociones y a procesar experiencias difíciles.
+<br>
+<br>
+Bienestar Mental:
+<br>
+ La creación artística se ha asociado con beneficios para la salud mental, como la reducción del estrés, la mejora del estado de ánimo y el aumento de la autoestima. Utilizar herramientas de arte puede proporcionar un escape relajante y una forma de autocuidado.
+<br>
+<br>
+Comunicación Visual: 
+<br>
+El arte es un lenguaje universal que puede comunicar ideas y emociones de manera poderosa y efectiva. Las herramientas de arte permiten a las personas transmitir mensajes complejos de manera visual, lo que puede ser especialmente útil en situaciones donde las palabras pueden resultar insuficientes.
+<br>
+<br>
+Exploración y Experimentación: 
+<br>
+Las herramientas de arte brindan a las personas la oportunidad de explorar nuevas técnicas, materiales y estilos. Esto fomenta la experimentación y el descubrimiento, lo que puede llevar a un crecimiento creativo y personal.
+<br>
+<br>
+Conexión con la Cultura: 
+<br>
+El arte ha sido una parte integral de la cultura humana a lo largo de la historia. Utilizar herramientas de arte permite a las personas conectarse con esta rica tradición cultural, así como con las culturas y perspectivas de otras personas en todo el mundo.
+<br>
+<br>
+En resumen, las herramientas de arte son importantes porque ofrecen un medio poderoso para la autoexpresión, el desarrollo personal, el bienestar mental, la comunicación visual, la exploración creativa y la conexión con la cultura.</p>
+<body>
+  <section class="contenedor">
+    <section class="producto">
+      <img src="https://m.media-amazon.com/images/S/aplus-media/vc/e80f537f-ac76-4ab8-b271-aeb404c9aa86.jpg" alt="Producto 1">
+      <h2>marcadores sharpie</h2>
+      <button>Comprar</button>
+      <p>L250</p>
+    </section>
+    <!-- Repetir para los otros productos -->
+<section class="producto">
+      <img src="https://elektra.vtexassets.com/arquivos/ids/3214286/image-3153bd889e2447a9ba1bc899b887d2fa.jpg?v=637685459501900000" alt="Producto 1">
+      <h2>Espatula Grande Truper</h2>
+      <button>Comprar</button>
+      <p>L190</p>
+    </section>
+<section class="producto">
+      <img src="https://www.officedepot.com.mx/medias/73892.gif-1200ftw?context=bWFzdGVyfHJvb3R8MTI0Nzk5fGltYWdlL2pwZWd8aDUwL2gwNi85NDI0OTYwMjkwODQ2LmpwZ3w5ZDlmZWViNjcwMWFjZmExMTMyMTI4MDkyOThjYTMxMzYzOWEwOGQ5YzMxZWFkNTBiZTU5ODE0YjIwNTViNmU3" alt="Producto 1">
+      <h2>Juego de espatulas</h2>
+      <button>Comprar</button>
+      <p>L220</p>
+    </section>
+<section class="producto">
+      <img src="https://todogastronomia.com/wp-content/uploads/2021/04/tca166-jgo-espatulas-3pz.jpg" alt="Producto 1">
+      <h2>Kit de 3 esopatulas</h2>
+      <button>Comprar</button>
+      <p>L200</p>
+    </section>
+<section class="producto">
+      <img src="https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00007053001422L.jpg" alt="Producto 1">
+      <h2>Lapices de colores prisma</h2>
+      <button>Comprar</button>
+      <p>L100</p>
+    </section>
+  </section>
+
+
+
+
+<section class="contenedor">
+    <section class="producto">
+      <img src="https://libreriairbe.com/wp-content/uploads/2019/08/Set-120-L%C3%A1pices-de-Colores-Acuarelables-Calidad-Profesional-Faber-Castell-Albrecht-D%C3%BCrer-Vista.jpg" alt="Producto 1">
+      <h2>Tcaja de colores faver castel</h2>
+      <button>Comprar</button>
+      <p>L190</p>
+    </section>
+    <!-- Repetir para los otros productos -->
+<section class="producto">
+      <img src="https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00007166204012L.jpg" alt="Producto 1">
+      <h2>Caja de colores crayola peque.</h2>
+      <button>Comprar</button>
+      <p>L35</p>
+    </section>
+<section class="producto">
+      <img src="https://libreriairbe.com/wp-content/uploads/2020/04/Set-24-L%C3%A1pices-de-Colores-Maped-ColorPeps-.jpg" alt="Producto 1">
+      <h2>Colores Maped</h2>
+      <button>Comprar</button>
+      <p>L120</p>
+    </section>
+<section class="producto">
+      <img src="https://www.officedepot.com.mx/medias/48490-1200ftw?context=bWFzdGVyfHJvb3R8MzM5NTMzfGltYWdlL2pwZWd8aDM1L2hjNC85NDg3Nzc1NzkzMTgyLmpwZ3xjNjdkNjQzODRhYTczZmU5ODRlYjc1YmExODFiNWEzMjc2YjIyNDI1M2I2Y2I2ZjIxNDZmNzhiNzQ4YWU1NzNh" alt="Producto 1">
+      <h2>Colores bic grande</h2>
+      <button>Comprar</button>
+      <p>L55</p>
+    </section>
+<section class="producto">
+      <img src="http://apreciosderemate.com/8446-thickbox_default/prismacolor-scholar-por-48-uni-caja-de-lapices-de-colores.jpg" alt="Producto 1">
+      <h2>Colores scholar</h2>
+      <button>Comprar</button>
+      <p>L100</p>
+    </section>
+  </section>
+</body>
+</html>
+
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pie de Página con Animaciones</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<head>
+<style>
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: sans-serif;
+text-transform: capitalize;
+    
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+ box-sizing: border-box;
+            animation: colorChange 10s infinite alternate; /*animasion de cambio de colores*/
+       text-decoration: none;
+}
+@keyframes colorChange {
+            0% { background-color: #ADD8E6; }
+            25% { background-color: #ADD8E6; }
+            50% { background-color: #ADD8E6; }
+            75% { background-color: #87CEEB; }
+            100% { background-color: #87CEEB; }
+        }
+footer {
+    background-color: #F62B09;
+    color: #fff
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seccion {
+    text-align: left;
+display: block;
+font-size: 18px;
+text-decoration: none;
+margin-bottom: 10px;
+font-weight: 500;
+padding-bottom: 10px;
+transition: all .5s ease; /*animacion de las letras */
+}
+
+.seccion h3 {
+    margin-bottom: 3px;
+border-bottom: 3px solid #FF0000;
+display: inline-block;
+padding: 10px 25px;
+}
+
+.seccion ul {
+    list-style: none;
+    padding: 0;
+}
+
+.seccion ul li {
+    margin-bottom: 3px;
+}
+
+.seccion ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+display: block;
+margin-bottom: 10px;
+transition: all .3s ease;
+}
+
+.seccion ul li a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+.social-links a { /*Enlaces sociales*/
+display: inline-block;
+margin: 0 10px 10px 0;
+transition: all .5s ease;
+text-decoration: none;
+}
+.social-links a:hover {
+background-color: #FFA07A;
+ text-align: center;
+}
+</style>
+</head>
+
+<body>
+    <footer>
+        <div class="seccion">
+            <h3>Historia</h3>
+            <ul>
+           
+
+            <li><a href="quienes">Quienes somos</a></li>
+            <li><a href="3D.HTML">Sobre Nosotros</a></li>
+
+            </ul>
+        </div>
+        <div class="seccion">
+            <h3>Envios</h3>
+            <ul>
+            
+
+            <li><a href="map.HTML">Envios</a></li>
+           
+            </ul>
+        </div>
+        <div class="seccion">
+            <h3>Ofertas</h3>
+            <ul>
+            <li><a href="ofertas.HTML">Ofertas</a></li>
+         
+
+            </ul>
+        </div>
+        <div class="seccion">
+            <h3>Marcas</h3>
+            <ul>
+            <li><a href="marcas.HTML">Marcas</a></li>
+
+            </ul>
+        </div>
+<div class="seccion">
+            <h3>Registro</h3>
+            <ul>
+            <li><a href="registro.HTML">Registro</a></li>
+
+            </ul>
+        </div>
+<div class="seccion">
+            <h3>Siguenos</h3>
+          <div class="social-links">
+<div style="hight:60px;vertical-align:top;"><p></p></div>
+<a href="https://www.facebook.com/Jennifer Galo"><i class="fa-brands fa-square-facebook fa-bounce fa-2xl" style="color: #1E90FF;"></i></a>
+ <p>Faceboock</p>
+<div style="vertical-align:top;"><p></p></div>
+<a href="https://www.instagram.com/jenn_galo_"><i class="fa-brands fa-square-instagram fa-bounce fa-2xl" style="color: #1E90FF;"></i></a>
+ <p>Instagram</p>
+<div style="vertical-align:top;"><p></p></div>
+  <a href="mailto:jennifermaricelagalo@gmail.com">
+<i class="fa-solid fa-envelope fa-bounce fa-2xl" style="color: #1E90FF;"></i>
+</a>
+
+  </div>
+ </style>
+ </footer>
+   </body>    
+
+
+
+
+<script 
+src="https://kit.fontawesome.com/df0ef9282b.js" 
+crossorigin="anonymous">
+</script>
+
+
+</html>
+
